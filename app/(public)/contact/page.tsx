@@ -123,7 +123,7 @@ export default function ContactPage() {
                                 </div>
                                 <h3 className="text-sm font-semibold text-text-primary">Email</h3>
                             </div>
-                            <p className="text-sm text-text-secondary">info@lokerpurwokertoku.com</p>
+                            <p className="text-sm text-text-secondary">admlokerpurwokerto@gmail.com</p>
                         </div>
 
                         {/* Location */}
