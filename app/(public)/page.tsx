@@ -90,7 +90,7 @@ export default async function HomePage({ searchParams }: PageProps) {
           <div className="text-center mb-10 animate-fade-in-up">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4 leading-tight drop-shadow-lg">
               Temukan Lowongan Pekerjaan Terbaru<br className="hidden sm:block" />
-              <span className="text-red-200">di Banyumas Raya</span>
+              <span className="text-red-200"> di Banyumas Raya</span>
             </h1>
             <p className="text-base sm:text-lg text-white/90 max-w-2xl mx-auto drop-shadow">
               Informasi lowongan kerja terbaru di Purwokerto, Purbalingga, Cilacap, Banjarnegara, dan Kebumen.

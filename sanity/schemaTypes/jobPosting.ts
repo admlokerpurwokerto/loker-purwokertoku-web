@@ -102,7 +102,6 @@ export const jobPosting = defineType({
             title: 'Deskripsi Pekerjaan',
             type: 'array',
             of: [{ type: 'block' }],
-            validation: (Rule) => Rule.required(),
         }),
         defineField({
             name: 'requirements',
