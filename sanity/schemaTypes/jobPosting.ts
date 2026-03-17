@@ -101,7 +101,15 @@ export const jobPosting = defineType({
             name: 'description',
             title: 'Deskripsi Pekerjaan',
             type: 'array',
-            of: [{ type: 'block' }],
+            of: [
+                {
+                    type: 'block',
+                    lists: [
+                        { title: 'Bullet', value: 'bullet' },
+                        { title: 'Numbered', value: 'number' },
+                    ],
+                },
+            ],
         }),
         defineField({
             name: 'requirements',
